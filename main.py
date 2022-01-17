@@ -80,7 +80,7 @@ def main():
 
 
     g = SquareGrid(30, 15)
-    g.walls = [git (0, 0), git s(5, 2)] # список long, [(21, 0), (21, 2), ...]
+    g.walls = [(0, 0),(5, 2)] # список long, [(21, 0), (21, 2), ...]
     draw_grid(g)
 
 
